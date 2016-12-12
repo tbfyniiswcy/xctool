@@ -288,7 +288,6 @@
 - (BOOL)performActionWithOptions:(Options *)options
                 xcodeSubjectInfo:(XcodeSubjectInfo *)xcodeSubjectInfo
 {
-
   [xcodeSubjectInfo.actionScripts preAnalyzeWithOptions:options];
 
   BuildTargetsCollector *buildTargetsCollector = [[BuildTargetsCollector alloc] init];

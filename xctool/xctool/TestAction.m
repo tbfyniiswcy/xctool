@@ -18,7 +18,9 @@
 #import "TestActionInternal.h"
 
 #import "BuildTestsAction.h"
+#import "Options.h"
 #import "RunTestsAction.h"
+#import "XCToolUtil.h"
 
 @interface TestAction ()
 
